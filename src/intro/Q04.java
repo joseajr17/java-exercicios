@@ -1,0 +1,17 @@
+package intro;
+
+import java.util.Scanner;
+
+public class Q04 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int num = sc.nextInt();
+		int horas = sc.nextInt();
+		double salario = sc.nextDouble();
+		
+		System.out.println("NUMBER = " + num);
+		System.out.printf("SALARY = U$ %.2f", (horas * salario));
+
+	}
+}
